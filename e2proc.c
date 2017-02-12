@@ -194,6 +194,7 @@
  *  ---- lcd
  *  |     |---- lcd/bpp
  *  |     |---- lcd/oled_brightness
+ *  |     |---- lcd/symbol_timeshift 
  *  |     |---- lcd/xres
  *  |     |---- lcd/yres
  *  ---- fb
@@ -536,6 +537,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcDir  , cProcNotExist, "stb/lcd"                                        , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/bpp"                                    , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/oled_brightness"                        , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/symbol_timeshift"                       , NULL, NULL, NULL},	
 	{cProcEntry, cProcNotExist, "stb/lcd/xres"                                   , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/yres"                                   , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/fb"                                         , NULL, NULL, NULL},
