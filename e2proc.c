@@ -174,6 +174,7 @@
  *  |     |---- ir/rc/type
  *  ---- fp
  *  |     |---- fp/events
+ *  |     |---- fp/fan
  *  |     |---- fp/fan_pwm
  *  |     |---- fp/fan_speed
  *  |     |---- fp/fan_vlt
@@ -540,6 +541,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/ir/rc/type"                                 , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/fp"                                         , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/fp/events"                                  , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/fp/fan"                                     , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/fp/fan_pwm"                                 , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/fp/fan_speed"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/fp/fan_vlt"                                 , NULL, NULL, NULL},
