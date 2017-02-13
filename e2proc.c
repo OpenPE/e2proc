@@ -176,6 +176,7 @@
  *  |     |---- fp/fan_pwm
  *  |     |---- fp/fan_speed
  *  |     |---- fp/fan_vlt
+ *  |     |---- fp/force_restart
  *  |     |---- fp/led_pattern_speed
  *  |     |---- fp/led0_pattern
  *  |     |---- fp/led_set_pattern
@@ -540,6 +541,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/fp/fan_pwm"                                 , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/fp/fan_speed"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/fp/fan_vlt"                                 , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/fp/force_restart"                           , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/fp/led_pattern_speed"                       , NULL, NULL, default_write_proc},
 	{cProcEntry, cProcNotExist, "stb/fp/led0_pattern"                            , NULL, NULL, default_write_proc},
 	{cProcEntry, cProcNotExist, "stb/fp/led_set_pattern"                         , NULL, NULL, NULL},
