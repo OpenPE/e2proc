@@ -156,6 +156,7 @@
  *  |     |---- hdmi/enable_hdmi_resets
  *  |     |---- hdmi/output
  *  |     |---- hdmi/output_choices
+ *  |     |---- hdmi/preemphasis 
  *  ---- ir
  *  |     |---- ir/mouse
  *  |     |---- ir/mouse/left_right_swap
@@ -500,6 +501,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/hdmi/enable_hdmi_resets"                    , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/hdmi/output"                                , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/hdmi/output_choices"                        , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/hdmi/preemphasis"                           , NULL, NULL, NULL},	
 	{cProcDir  , cProcNotExist, "stb/ir"                                         , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/ir/mouse"                                   , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/ir/mouse/left_right_swap"                   , NULL, NULL, NULL},
