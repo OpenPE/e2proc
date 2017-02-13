@@ -156,7 +156,7 @@
  *  |     |---- hdmi/enable_hdmi_resets
  *  |     |---- hdmi/output
  *  |     |---- hdmi/output_choices
- *  |     |---- hdmi/preemphasis 
+ *  |     |---- hdmi/preemphasis
  *  ---- ir
  *  |     |---- ir/mouse
  *  |     |---- ir/mouse/left_right_swap
@@ -196,9 +196,9 @@
  *  ---- lcd
  *  |     |---- lcd/bpp
  *  |     |---- lcd/oled_brightness
- *  |     |---- lcd/scroll_delay 
- *  |     |---- lcd/show_outputresolution 
- *  |     |---- lcd/symbol_timeshift 
+ *  |     |---- lcd/scroll_delay
+ *  |     |---- lcd/show_outputresolution
+ *  |     |---- lcd/symbol_timeshift
  *  |     |---- lcd/xres
  *  |     |---- lcd/yres
  *  ---- fb
@@ -218,7 +218,9 @@
  *  |     |---- tsmux/input2
  *  |     |---- tsmux/lnb_b_input
  *  ---- message
- *  |     |---- power/vfd 
+ *  ---- power
+ *  |     |---- power/standbyled
+ *  |     |---- power/vfd
  *  ---- tuner
  *  ---- misc
  *  |     |---- misc/12V_output
@@ -365,7 +367,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/info/boxmode"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/boxtype"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/chipset"                               , NULL, NULL, NULL},
-	{cProcEntry, cProcNotExist, "stb/info/micomver"                              , NULL, NULL, NULL},	
+	{cProcEntry, cProcNotExist, "stb/info/micomver"                              , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/model"                                 , NULL, info_model_read, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/perevision"                            , NULL, info_perevision_read, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/peversion"                             , NULL, info_peversion_read, NULL},
@@ -504,7 +506,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/hdmi/enable_hdmi_resets"                    , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/hdmi/output"                                , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/hdmi/output_choices"                        , NULL, NULL, NULL},
-	{cProcEntry, cProcNotExist, "stb/hdmi/preemphasis"                           , NULL, NULL, NULL},	
+	{cProcEntry, cProcNotExist, "stb/hdmi/preemphasis"                           , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/ir"                                         , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/ir/mouse"                                   , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/ir/mouse/left_right_swap"                   , NULL, NULL, NULL},
@@ -544,9 +546,9 @@ struct ProcStructure_s e2Proc[] =
 	{cProcDir  , cProcNotExist, "stb/lcd"                                        , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/bpp"                                    , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/oled_brightness"                        , NULL, NULL, NULL},
-	{cProcEntry, cProcNotExist, "stb/lcd/scroll_delay"                           , NULL, NULL, NULL},	
-	{cProcEntry, cProcNotExist, "stb/lcd/show_outputresolution"                  , NULL, NULL, NULL},	
-	{cProcEntry, cProcNotExist, "stb/lcd/symbol_timeshift"                       , NULL, NULL, NULL},	
+	{cProcEntry, cProcNotExist, "stb/lcd/scroll_delay"                           , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/show_outputresolution"                  , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/symbol_timeshift"                       , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/xres"                                   , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/yres"                                   , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/fb"                                         , NULL, NULL, NULL},
@@ -567,7 +569,8 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/tsmux/lnb_b_input"                          , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/message"                                    , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/power"                                      , NULL, NULL, NULL},
-	{cProcEntry, cProcNotExist, "stb/power/vfd"                                  , NULL, NULL, NULL},	
+	{cProcEntry, cProcNotExist, "stb/power/standbyled"                           , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/power/vfd"                                  , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/tuner"                                      , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/misc"                                       , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/misc/12V_output"                            , NULL, NULL, NULL},
