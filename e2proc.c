@@ -22,6 +22,7 @@
  *  |     |---- info/hwmodel
  *  |     |---- info/micomver
  *  |     |---- info/model
+ *  |     |---- info/subtype
  *  |     |---- info/version
  *  ---- frontend
  *  |     |---- frontend/0
@@ -385,6 +386,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/info/model"                                 , NULL, info_model_read, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/perevision"                            , NULL, info_perevision_read, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/peversion"                             , NULL, info_peversion_read, NULL},
+	{cProcEntry, cProcNotExist, "stb/info/subtype"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/version"                               , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/frontend"                                   , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/frontend/0"                                 , NULL, NULL, NULL},
