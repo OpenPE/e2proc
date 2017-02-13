@@ -204,6 +204,7 @@
  *  |     |---- lcd/symbol_hdd
  *  |     |---- lcd/symbol_hddprogress
  *  |     |---- lcd/symbol_timeshift
+ *  |     |---- lcd/vfd
  *  |     |---- lcd/xres
  *  |     |---- lcd/yres
  *  ---- fb
@@ -559,6 +560,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/lcd/symbol_timeshift"                       , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/symbol_hdd"                             , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/symbol_hddprogress"                     , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/vfd"                                    , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/xres"                                   , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/yres"                                   , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/fb"                                         , NULL, NULL, NULL},
