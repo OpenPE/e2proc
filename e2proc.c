@@ -199,6 +199,7 @@
  *  |     |---- lcd/mode
  *  |     |---- lcd/oled_brightness
  *  |     |---- lcd/scroll_delay
+ *  |     |---- lcd/scroll_repeats
  *  |     |---- lcd/show_outputresolution
  *  |     |---- lcd/symbol_hdd
  *  |     |---- lcd/symbol_hddprogress
@@ -553,6 +554,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/lcd/mode"                                   , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/oled_brightness"                        , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/scroll_delay"                           , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/scroll_repeats"                         , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/show_outputresolution"                  , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/symbol_timeshift"                       , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/symbol_hdd"                             , NULL, NULL, NULL},
