@@ -229,6 +229,7 @@
  *  |     |---- fb/primary
  *  |     |---- fb/primary/3d
  *  |     |---- fb/primary/zoffset
+ *  |     |---- fb/sd_detach
  *  |     |---- fb/znorm
  *  ---- tsmux
  *  |     |---- tsmux/ci0_input
@@ -602,6 +603,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcDir  , cProcNotExist, "stb/fb/primary"                                 , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/fb/primary/3d"                              , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/fb/primary/zoffset"                         , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/fb/sd_detach"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/fb/znorm"                                   , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/tsmux"				             , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/tsmux/ci0_input"                            , NULL, proc_tsmux_ci0_input_read, proc_tsmux_ci0_input_write},
