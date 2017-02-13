@@ -238,6 +238,7 @@
  *  ---- power
  *  |     |---- power/standbyled
  *  |     |---- power/vfd
+ *  |     |---- power/wol
  *  ---- tuner
  *  ---- misc
  *  |     |---- misc/12V_output
@@ -605,6 +606,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcDir  , cProcNotExist, "stb/power"                                      , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/power/standbyled"                           , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/power/vfd"                                  , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/power/wol"                                  , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/tuner"                                      , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/misc"                                       , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/misc/12V_output"                            , NULL, NULL, NULL},
