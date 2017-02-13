@@ -41,6 +41,9 @@
  *  |     |---- frontend/1/lnb_sense
  *  |     |---- frontend/1/rf_switch
  *  |     |---- frontend/1/mode
+ *  |     |---- frontend/fbc
+ *  |     |---- frontend/fbc/force_lnbon
+ *  |     |---- frontend/fbc/force_toneburst
  *  ---- pvr
  *  |     |---- pvr/clip_stats
  *  ---- audio
@@ -416,6 +419,9 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/frontend/1/lnb_sense"                       , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/frontend/1/rf_switch"                       , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/frontend/1/mode"                            , NULL, NULL, NULL},
+	{cProcDir  , cProcNotExist, "stb/frontend/fbc"                               , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/frontend/fbc/force_lnbon"                   , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/frontend/fbc/force_toneburst"               , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/pvr"                                        , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/pvr/clip_stats"                             , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/audio"                                      , NULL, NULL, NULL},
