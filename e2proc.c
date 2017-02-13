@@ -250,6 +250,8 @@
  *  |     |---- power/vfd
  *  |     |---- power/wol
  *  ---- tuner
+ *  ---- tsmux
+ *  |     |---- tsmux/rmx_delay
  *  ---- misc
  *  |     |---- misc/12V_output
  */
@@ -628,6 +630,8 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/power/vfd"                                  , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/power/wol"                                  , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/tuner"                                      , NULL, NULL, NULL},
+	{cProcDir  , cProcNotExist, "stb/tsmux"                                      , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/tsmux/rmx_delay"                            , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/misc"                                       , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/misc/12V_output"                            , NULL, NULL, NULL},
 };
