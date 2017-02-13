@@ -19,6 +19,7 @@
  *  |     |---- info/boxmode
  *  |     |---- info/boxtype
  *  |     |---- info/chipset
+ *  |     |---- info/hwmodel
  *  |     |---- info/micomver
  *  |     |---- info/model
  *  |     |---- info/version
@@ -379,6 +380,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/info/boxmode"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/boxtype"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/chipset"                               , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/info/hwmodel"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/micomver"                              , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/model"                                 , NULL, info_model_read, NULL},
 	{cProcEntry, cProcNotExist, "stb/info/perevision"                            , NULL, info_perevision_read, NULL},
