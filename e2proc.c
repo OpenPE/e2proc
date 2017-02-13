@@ -195,6 +195,7 @@
  *  |     |---- sensors/temp0/value
  *  ---- lcd
  *  |     |---- lcd/bpp
+ *  |     |---- lcd/fps
  *  |     |---- lcd/oled_brightness
  *  |     |---- lcd/scroll_delay
  *  |     |---- lcd/show_outputresolution
@@ -547,6 +548,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/sensors/temp0/value"                        , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/lcd"                                        , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/bpp"                                    , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/fps"                                    , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/oled_brightness"                        , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/scroll_delay"                           , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/show_outputresolution"                  , NULL, NULL, NULL},
