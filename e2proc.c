@@ -193,6 +193,7 @@
  *  |     |---- fp/version
  *  |     |---- fp/wakeup_time
  *  |     |---- fp/was_timer_wakeup
+ *  |     |---- fp/wol
  *  ---- sensors
  *  |     |---- sensors/temp
  *  |     |---- sensors/temp/value
@@ -561,6 +562,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/fp/version"                                 , NULL, zero_read, NULL},
 	{cProcEntry, cProcNotExist, "stb/fp/wakeup_time"                             , NULL, default_read_proc, default_write_proc},
 	{cProcEntry, cProcNotExist, "stb/fp/was_timer_wakeup"                        , NULL, default_read_proc, NULL},
+	{cProcEntry, cProcNotExist, "stb/fp/wol"                                     , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/sensors"                                    , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/sensors/temp"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/sensors/temp/value"                         , NULL, NULL, NULL},
