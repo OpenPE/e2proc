@@ -201,9 +201,14 @@
  *  |     |---- lcd/scroll_delay
  *  |     |---- lcd/scroll_repeats
  *  |     |---- lcd/show_outputresolution
+ *  |     |---- lcd/show_symbols
  *  |     |---- lcd/symbol_hdd
  *  |     |---- lcd/symbol_hddprogress
+ *  |     |---- lcd/symbol_network
+ *  |     |---- lcd/symbol_signal
  *  |     |---- lcd/symbol_timeshift
+ *  |     |---- lcd/symbol_tv
+ *  |     |---- lcd/symbol_usb
  *  |     |---- lcd/vfd
  *  |     |---- lcd/xres
  *  |     |---- lcd/yres
@@ -557,9 +562,14 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/lcd/scroll_delay"                           , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/scroll_repeats"                         , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/show_outputresolution"                  , NULL, NULL, NULL},
-	{cProcEntry, cProcNotExist, "stb/lcd/symbol_timeshift"                       , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/show_symbols"                           , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/symbol_hdd"                             , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/symbol_hddprogress"                     , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/symbol_network"                         , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/symbol_signal"                          , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/symbol_timeshift"                       , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/symbol_tv"                              , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/lcd/symbol_usb"                             , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/vfd"                                    , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/xres"                                   , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/lcd/yres"                                   , NULL, NULL, NULL},
