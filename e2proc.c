@@ -110,6 +110,8 @@
  *  |     |---- vmpeg/0/xres
  *  |     |---- vmpeg/0/yres
  *  |     |---- vmpeg/1
+ *  |     |---- vmpeg/1/external
+ *  |     |---- vmpeg/1/visible
  *  ---- denc
  *  |     |---- denc/0
  *  |     |---- denc/0/wss
@@ -479,6 +481,8 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/vmpeg/0/xres"                               , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/vmpeg/0/yres"                               , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/vmpeg/1"                                    , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/vmpeg/1/external"                           , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/vmpeg/1/visible"                            , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/denc"                                       , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/denc/0"                                     , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/denc/0/wss"                                 , NULL, NULL, NULL},
