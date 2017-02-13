@@ -217,6 +217,7 @@
  *  |     |---- tsmux/input2
  *  |     |---- tsmux/lnb_b_input
  *  ---- message
+ *  |     |---- power/vfd 
  *  ---- tuner
  *  ---- misc
  *  |     |---- misc/12V_output
@@ -563,6 +564,8 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/tsmux/input2"                               , NULL, proc_tsmux_input2_read, proc_tsmux_input_write},
 	{cProcEntry, cProcNotExist, "stb/tsmux/lnb_b_input"                          , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/message"                                    , NULL, NULL, NULL},
+	{cProcDir  , cProcNotExist, "stb/power"                                      , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/power/vfd"                                  , NULL, NULL, NULL},	
 	{cProcDir  , cProcNotExist, "stb/tuner"                                      , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/misc"                                       , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/misc/12V_output"                            , NULL, NULL, NULL},
