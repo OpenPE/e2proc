@@ -151,6 +151,7 @@
  *  |     |---- video/videomode_preferred
  *  |     |---- video/videomode
  *  |     |---- video/zapmode
+ *  |     |---- video/zapping_mode
  *  ---- hdmi
  *  |     |---- hdmi/audio_source
  *  |     |---- hdmi/audio_source_choices
@@ -516,6 +517,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcEntry, cProcNotExist, "stb/video/videomode_preferred"                  , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/video/videomode"                            , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/video/zapmode"                              , NULL, NULL, NULL},
+	{cProcEntry, cProcNotExist, "stb/video/zapping_mode"                         , NULL, NULL, NULL},
 	{cProcDir  , cProcNotExist, "stb/hdmi"                                       , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/hdmi/audio_source"                          , NULL, NULL, NULL},
 	{cProcEntry, cProcNotExist, "stb/hdmi/audio_source_choices"                  , NULL, NULL, NULL},
